@@ -1,4 +1,4 @@
-# CSC-3102-Project0
+# Profiling Approximation Algorithms for Sine
 In this project, I used two approaches to approximating the sine function using a power series equation. In the naive approach, each term of the series is calculated independent of any other term: both the factorial and exponentiation involved in calculating each term are done independent of those done in any other term. In the fast approach, each term, excluding the first, is calculated by performing basic arithmetic operations on the preceding term. Neither the factorial nor the exponentiation involved in the computation of a term are explicitly carried out. 
 
 When ran, the user is prompted to enter the angle 0, in radians, whose sine is to be approximated. It invokes both the naiveSine and fastSine methods using a predetermined amount of terms. The program also determines the time in microseconds and displays the results in a table.
